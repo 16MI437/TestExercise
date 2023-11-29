@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\TestRepo\\test-and-taste-developer-exercise\\Test-Taste-Console-Application\\Test-Taste-Console-Application.csproj": {}
+  },
+  "projects": {
+    "D:\\TestRepo\\test-and-taste-developer-exercise\\Test-Taste-Console-Application\\Test-Taste-Console-Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TestRepo\\test-and-taste-developer-exercise\\Test-Taste-Console-Application\\Test-Taste-Console-Application.csproj",
+        "projectName": "Test-Taste-Console-Application",
+        "projectPath": "D:\\TestRepo\\test-and-taste-developer-exercise\\Test-Taste-Console-Application\\Test-Taste-Console-Application.csproj",
+        "packagesPath": "C:\\Users\\jagdeep\\.nuget\\packages\\",
+        "outputPath": "D:\\TestRepo\\test-and-taste-developer-exercise\\Test-Taste-Console-Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jagdeep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
